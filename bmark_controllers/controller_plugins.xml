@@ -1,0 +1,8 @@
+<library path="bmark_controllers">
+  <class name="bmark_controllers/DurationBroadcaster"
+         type="bmark_controllers::DurationBroadcaster" base_class_type="controller_interface::ControllerInterface">
+  <description>
+    This controller publishes the period of the `Controller Manager` as bmark_msgs/Duration message.
+  </description>
+  </class>
+</library>
